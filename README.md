@@ -1,3 +1,3 @@
-# Site-tarefas
+# Site
 
-fiz apenas para testar o que aprendi nas aulas de spring boot... HTML, CSS e TS está bem básico porque não entendo muito sobre eles
+Não está finalizado ainda, mas esta quase. Esse site tem um proposito para pessoas que gostam de organizar suas atividade, aqui voce pode colocar as coisas que pretende fazer no dia e marca como feito e nao feito. Projeto simples, mas tive bastante trabalho em faze-lo...
