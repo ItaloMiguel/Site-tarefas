@@ -1,0 +1,69 @@
+.mat-elevation-z8 {
+    box-shadow: 0px 2px 6px rgb(129, 129, 129);
+}
+
+.color-blue {
+    background-color: rgb(66, 133, 221);
+    color: white;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.color-red {
+    background-color: rgb(221, 66, 66);
+    color: white;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.color-yellow {
+    background-color: yellow;
+    color: black;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.badge {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge button {
+    margin: auto;
+    width: 50%;
+}
+
+.content {
+    width: 100%;
+}
+
+.novo-todo {
+    border: none;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+mat-card {
+    margin-top: .8rem;
+    padding: .2rem;
+}
+
+p {
+    text-align: end;
+    font-weight: 600;
+    color: rgb(114, 111, 111);
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.action {
+    text-align: end;
+}
+
+.action button {
+    margin: 0.5rem;
+}
