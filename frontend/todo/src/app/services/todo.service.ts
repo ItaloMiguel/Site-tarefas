@@ -9,6 +9,7 @@ import { Todo } from '../models/todo';
   providedIn: 'root'
 })
 export class TodoService {
+  [x: string]: any;
 
   baseUrl = environment.baseUrl;
 
@@ -18,9 +19,24 @@ export class TodoService {
     return this.http.get<Todo[]>(this.baseUrl);
   }
 
+  findById(id: any): Observable<Todo> {
+    const url = `${this.baseUrl}/${id}`
+    return this.http.get<Todo>(url);
+  } 
+  
+  update(todo: Todo):Observable<Todo> {
+    const url = `${ this.baseUrl}/${todo.id}`;
+    return this.http.put<Todo>(url, todo);
+  }
+
+
   delete(id: any):Observable<void>{
     const url = `${this.baseUrl}/${id}`;
     return this.http.delete<void>(url);
+  }
+
+  create(todo: Todo):Observable<Todo> {
+    return this.http.post<Todo>(this.baseUrl, todo);
   }
 
   message(msg: String):void {
