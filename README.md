@@ -1,3 +1,7 @@
 # Site
 
-Não está finalizado ainda, mas esta quase. Esse site tem um proposito para pessoas que gostam de organizar suas atividade, aqui voce pode colocar as coisas que pretende fazer no dia e marca como feito e nao feito. Projeto simples, mas tive bastante trabalho em faze-lo...
+
+
+Está quase sendo finalizado, caso faça um git clone recomendo entrar na pasta mysql e seguir umas pequenas instruções para conseguir fazer o docker-compose rodar. Muito obrigado pela visita, fico muito feliz =)
+
+obs: Estou tentando coloca função de registra e login, quando finalizar essa parte vou tenta colocar ela na aws. Caso faça um git clone verifica se a opção de spring security está na api, se tiver tira ela para conseguir roda.

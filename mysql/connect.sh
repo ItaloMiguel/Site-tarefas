@@ -1,1 +1,3 @@
-sudo docker-compose exec db mysql brasil -p
+docker-compose exec db mysql api_atividade -p
+
+senha: root

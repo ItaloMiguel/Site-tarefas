@@ -4,10 +4,12 @@ volumes:
     volume_mysql_data:
 
 services:
-  mysqldb:
-    image: mysql:latest
+
+  db:
+    image: mysql:8.0
     environment:
       - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=api_atividade
       - LANG=C.UTF-8
     networks:
       -  mysql-network
